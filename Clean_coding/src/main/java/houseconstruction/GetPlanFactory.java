@@ -1,6 +1,7 @@
 package houseconstruction;
 
 
+
 public class GetPlanFactory {
 	public Plan getPlan(String planType){  
         if(planType == null){  
@@ -15,7 +16,7 @@ public class GetPlanFactory {
       else if(planType.equalsIgnoreCase("Highstandard")) {  
             return new Highstandard();  
       }
-      else if(planType.equalsIgnoreCase("Highstandard_fullyautomated")) {  
+      else if(planType.equalsIgnoreCase("HighstandardFullautomatic")) {  
     	  return new HighstandardFullautomatic();
       }
   return null;  

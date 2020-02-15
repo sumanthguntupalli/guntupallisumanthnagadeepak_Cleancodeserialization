@@ -1,5 +1,6 @@
 package houseconstruction;
 
+
 abstract class Plan {
     protected double rate;  
     abstract void getRate();  

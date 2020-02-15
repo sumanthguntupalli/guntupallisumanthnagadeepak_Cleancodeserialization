@@ -1,5 +1,6 @@
 package houseconstruction;
 
+
 public class Generatecost {
 	public double Cost(String name,double Sqrfoot)
 	{
